@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -27,7 +27,8 @@
 		DE7C21E0273AD849004A4805 /* DownloadedFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7C21DF273AD849004A4805 /* DownloadedFile.swift */; };
 		DE8BCD80273BEC4D009AFA93 /* Aesthete.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8BCD7F273BEC4D009AFA93 /* Aesthete.swift */; };
 		DE8BCD85273C0D6A009AFA93 /* AestheteObserving.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8BCD84273C0D6A009AFA93 /* AestheteObserving.swift */; };
-		EB7D5602BC0DEF1294C83F8A /* Pods_Aesthete_IOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4BE90C319AF767FCD1CF2FA /* Pods_Aesthete_IOS.framework */; };
+		DED3877D2758EF4F0047F89B /* ObserverList.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = DED3877C2758EF4F0047F89B /* ObserverList.xcframework */; };
+		DED3877E2758EF4F0047F89B /* ObserverList.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DED3877C2758EF4F0047F89B /* ObserverList.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,9 +41,21 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		DED3877F2758EF4F0047F89B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DED3877E2758EF4F0047F89B /* ObserverList.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		AE39745BA5B8CC84E2491A36 /* Pods-Aesthete IOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aesthete IOS.release.xcconfig"; path = "Target Support Files/Pods-Aesthete IOS/Pods-Aesthete IOS.release.xcconfig"; sourceTree = "<group>"; };
-		C4BE90C319AF767FCD1CF2FA /* Pods_Aesthete_IOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Aesthete_IOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB112409256BF9AE00215E47 /* AestheteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AestheteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB112444256BFA9E00215E47 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB112490256C024A00215E47 /* LinuxMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinuxMain.swift; sourceTree = "<group>"; };
@@ -50,7 +63,6 @@
 		CB30D6C9256ADB0C00EE2C61 /* Aesthete.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Aesthete.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB30D71B256ADE2E00EE2C61 /* Aesthete.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Aesthete.h; sourceTree = "<group>"; };
 		CB30D71C256ADE2E00EE2C61 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D82C56E3919B43129426812D /* Pods-Aesthete IOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aesthete IOS.debug.xcconfig"; path = "Target Support Files/Pods-Aesthete IOS/Pods-Aesthete IOS.debug.xcconfig"; sourceTree = "<group>"; };
 		DE7C21BD273A9293004A4805 /* LimitedOperationGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LimitedOperationGroup.swift; sourceTree = "<group>"; };
 		DE7C21BF273A9DFE004A4805 /* ConcurrentArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcurrentArray.swift; sourceTree = "<group>"; };
 		DE7C21C2273A9F7D004A4805 /* ConcurrentArrayProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcurrentArrayProtocol.swift; sourceTree = "<group>"; };
@@ -68,6 +80,7 @@
 		DE7C21DF273AD849004A4805 /* DownloadedFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadedFile.swift; sourceTree = "<group>"; };
 		DE8BCD7F273BEC4D009AFA93 /* Aesthete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aesthete.swift; sourceTree = "<group>"; };
 		DE8BCD84273C0D6A009AFA93 /* AestheteObserving.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AestheteObserving.swift; sourceTree = "<group>"; };
+		DED3877C2758EF4F0047F89B /* ObserverList.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ObserverList.xcframework; path = Carthage/Build/ObserverList.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,30 +96,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB7D5602BC0DEF1294C83F8A /* Pods_Aesthete_IOS.framework in Frameworks */,
+				DED3877D2758EF4F0047F89B /* ObserverList.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		68141E9E90F01F6F8B370D8D /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				C4BE90C319AF767FCD1CF2FA /* Pods_Aesthete_IOS.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C477DBC21222BB8A2C9BFEA7 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				D82C56E3919B43129426812D /* Pods-Aesthete IOS.debug.xcconfig */,
-				AE39745BA5B8CC84E2491A36 /* Pods-Aesthete IOS.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		CB1123F6256BF82700215E47 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -131,8 +127,7 @@
 				CB1123F6256BF82700215E47 /* Tests */,
 				CB30D718256ADE2E00EE2C61 /* Sources */,
 				CB30D6CA256ADB0C00EE2C61 /* Products */,
-				C477DBC21222BB8A2C9BFEA7 /* Pods */,
-				68141E9E90F01F6F8B370D8D /* Frameworks */,
+				DED3877B2758EF4F0047F89B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -243,6 +238,14 @@
 			path = Aesthete;
 			sourceTree = "<group>";
 		};
+		DED3877B2758EF4F0047F89B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DED3877C2758EF4F0047F89B /* ObserverList.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -279,11 +282,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CB30D6DB256ADB0D00EE2C61 /* Build configuration list for PBXNativeTarget "Aesthete IOS" */;
 			buildPhases = (
-				4722AA28E03DA525E068AB50 /* [CP] Check Pods Manifest.lock */,
 				CB30D6C4256ADB0C00EE2C61 /* Headers */,
 				CB30D6C5256ADB0C00EE2C61 /* Sources */,
 				CB30D6C6256ADB0C00EE2C61 /* Frameworks */,
-				CB30D6C7256ADB0C00EE2C61 /* Resources */,
+				DED3877F2758EF4F0047F89B /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -340,39 +342,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CB30D6C7256ADB0C00EE2C61 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		4722AA28E03DA525E068AB50 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Aesthete IOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CB112405256BF9AE00215E47 /* Sources */ = {
@@ -632,7 +602,6 @@
 		};
 		CB30D6DC256ADB0D00EE2C61 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D82C56E3919B43129426812D /* Pods-Aesthete IOS.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -715,7 +684,6 @@
 		};
 		CB30D6DD256ADB0D00EE2C61 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AE39745BA5B8CC84E2491A36 /* Pods-Aesthete IOS.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
