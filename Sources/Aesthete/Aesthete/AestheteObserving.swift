@@ -30,7 +30,7 @@ public struct AestheteObserving {
 
     // MARK: - Initializers
 
-    init(
+    public init(
         progressDownloadClosure: ProgressDownloadClosure? = nil,
         downloadFinishedClosure: DownloadFinishedClosure? = nil,
         downloadErrorClosure: DownloadErrorClosure? = nil

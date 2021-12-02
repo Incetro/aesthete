@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
   spec.name          = 'Aesthete'
   spec.module_name   = 'Aesthete'
-  spec.version       = '0.0.1'
+  spec.version       = '0.0.2'
   spec.license       = 'MIT'
   spec.authors       = { 'incetro' => 'incetro@ya.ru', 'Lezya Alexander' => '1ezya007@gmail.com' }
   spec.homepage      = "https://github.com/Incetro/aesthete.git"
