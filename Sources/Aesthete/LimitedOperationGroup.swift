@@ -5,6 +5,8 @@
 //  Created by Alexander Lezya on 09.11.2021.
 //
 
+import Foundation
+
 // MARK: - LimitedOperationGroup
 
 /// It's just a simple wrapper around OperationQueue for making extensions later and prevent

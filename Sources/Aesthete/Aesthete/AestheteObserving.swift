@@ -5,6 +5,8 @@
 //  Created by Alexander Lezya on 10.11.2021.
 //
 
+import Foundation
+
 // MARK: - Aliases
 
 public typealias ProgressDownloadClosure = (_ resource: DownloadResource, _ task: URLSessionDownloadTask) -> Void

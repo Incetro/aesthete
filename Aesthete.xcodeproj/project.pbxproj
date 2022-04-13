@@ -10,6 +10,27 @@
 		CB11240E256BF9AE00215E47 /* Aesthete.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB30D6C9256ADB0C00EE2C61 /* Aesthete.framework */; };
 		CB112527256C0A8700215E47 /* MainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1124EF256C09B400215E47 /* MainTests.swift */; };
 		CB30D71D256ADE2E00EE2C61 /* Aesthete.h in Headers */ = {isa = PBXBuildFile; fileRef = CB30D71B256ADE2E00EE2C61 /* Aesthete.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBE862132807637C000471AC /* Aesthete_WatchOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBE8620B2807637C000471AC /* Aesthete_WatchOS.framework */; };
+		CBE86220280763B4000471AC /* Aesthete.h in Headers */ = {isa = PBXBuildFile; fileRef = CB30D71B256ADE2E00EE2C61 /* Aesthete.h */; };
+		CBE86221280763BA000471AC /* LimitedOperationGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7C21BD273A9293004A4805 /* LimitedOperationGroup.swift */; };
+		CBE86222280763BD000471AC /* AestheteImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7C21DD273ABF20004A4805 /* AestheteImplementation.swift */; };
+		CBE86223280763C2000471AC /* Aesthete.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8BCD7F273BEC4D009AFA93 /* Aesthete.swift */; };
+		CBE86224280763C5000471AC /* AestheteObserving.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8BCD84273C0D6A009AFA93 /* AestheteObserving.swift */; };
+		CBE86225280763C9000471AC /* AestheteConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7C21D9273ABC91004A4805 /* AestheteConfiguration.swift */; };
+		CBE86226280763C9000471AC /* Mode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7C21DB273ABCCF004A4805 /* Mode.swift */; };
+		CBE86227280763D0000471AC /* DownloadsFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7C21D4273AB92B004A4805 /* DownloadsFileManager.swift */; };
+		CBE86228280763D0000471AC /* DownloadsFileManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7C21D6273AB941004A4805 /* DownloadsFileManagerProtocol.swift */; };
+		CBE86229280763D2000471AC /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7C21D1273AB8EB004A4805 /* FileManager.swift */; };
+		CBE8622A280763D6000471AC /* DownloadItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7C21C4273AA276004A4805 /* DownloadItem.swift */; };
+		CBE8622B280763D6000471AC /* DownloadedFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7C21DF273AD849004A4805 /* DownloadedFile.swift */; };
+		CBE8622C280763DB000471AC /* DownloadResourceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7C21CD273AB7C1004A4805 /* DownloadResourceProtocol.swift */; };
+		CBE8622D280763DB000471AC /* DownloadResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7C21C6273AA3B4004A4805 /* DownloadResource.swift */; };
+		CBE8622E280763DD000471AC /* DownloadError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7C21C8273AA3ED004A4805 /* DownloadError.swift */; };
+		CBE8622F280763DD000471AC /* DownloadMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7C21CB273AB6AD004A4805 /* DownloadMode.swift */; };
+		CBE86230280763E1000471AC /* ConcurrentArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7C21BF273A9DFE004A4805 /* ConcurrentArray.swift */; };
+		CBE86231280763E1000471AC /* ConcurrentArrayProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7C21C2273A9F7D004A4805 /* ConcurrentArrayProtocol.swift */; };
+		CBE86232280764D1000471AC /* ObserverList.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = DED3877C2758EF4F0047F89B /* ObserverList.xcframework */; };
+		CBE86233280764D1000471AC /* ObserverList.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DED3877C2758EF4F0047F89B /* ObserverList.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DE7C21BE273A9293004A4805 /* LimitedOperationGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7C21BD273A9293004A4805 /* LimitedOperationGroup.swift */; };
 		DE7C21C0273A9DFE004A4805 /* ConcurrentArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7C21BF273A9DFE004A4805 /* ConcurrentArray.swift */; };
 		DE7C21C3273A9F7D004A4805 /* ConcurrentArrayProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7C21C2273A9F7D004A4805 /* ConcurrentArrayProtocol.swift */; };
@@ -39,9 +60,27 @@
 			remoteGlobalIDString = CB30D6C8256ADB0C00EE2C61;
 			remoteInfo = "Aesthete IOS";
 		};
+		CBE862142807637C000471AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB30D6BE256ADAB400EE2C61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBE8620A2807637C000471AC;
+			remoteInfo = "Aesthete WatchOS";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		CBE86234280764D1000471AC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CBE86233280764D1000471AC /* ObserverList.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DED3877F2758EF4F0047F89B /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -63,6 +102,8 @@
 		CB30D6C9256ADB0C00EE2C61 /* Aesthete.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Aesthete.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB30D71B256ADE2E00EE2C61 /* Aesthete.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Aesthete.h; sourceTree = "<group>"; };
 		CB30D71C256ADE2E00EE2C61 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBE8620B2807637C000471AC /* Aesthete_WatchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Aesthete_WatchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBE862122807637C000471AC /* Aesthete WatchOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Aesthete WatchOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE7C21BD273A9293004A4805 /* LimitedOperationGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LimitedOperationGroup.swift; sourceTree = "<group>"; };
 		DE7C21BF273A9DFE004A4805 /* ConcurrentArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcurrentArray.swift; sourceTree = "<group>"; };
 		DE7C21C2273A9F7D004A4805 /* ConcurrentArrayProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcurrentArrayProtocol.swift; sourceTree = "<group>"; };
@@ -97,6 +138,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				DED3877D2758EF4F0047F89B /* ObserverList.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBE862082807637C000471AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBE86232280764D1000471AC /* ObserverList.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBE8620F2807637C000471AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBE862132807637C000471AC /* Aesthete_WatchOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +193,8 @@
 			children = (
 				CB30D6C9256ADB0C00EE2C61 /* Aesthete.framework */,
 				CB112409256BF9AE00215E47 /* AestheteTests.xctest */,
+				CBE8620B2807637C000471AC /* Aesthete_WatchOS.framework */,
+				CBE862122807637C000471AC /* Aesthete WatchOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -257,6 +316,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CBE862062807637C000471AC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBE86220280763B4000471AC /* Aesthete.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -296,13 +363,50 @@
 			productReference = CB30D6C9256ADB0C00EE2C61 /* Aesthete.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		CBE8620A2807637C000471AC /* Aesthete WatchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBE8621A2807637C000471AC /* Build configuration list for PBXNativeTarget "Aesthete WatchOS" */;
+			buildPhases = (
+				CBE862062807637C000471AC /* Headers */,
+				CBE862072807637C000471AC /* Sources */,
+				CBE862082807637C000471AC /* Frameworks */,
+				CBE862092807637C000471AC /* Resources */,
+				CBE86234280764D1000471AC /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Aesthete WatchOS";
+			productName = "Aesthete WatchOS";
+			productReference = CBE8620B2807637C000471AC /* Aesthete_WatchOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CBE862112807637C000471AC /* Aesthete WatchOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBE8621D2807637C000471AC /* Build configuration list for PBXNativeTarget "Aesthete WatchOSTests" */;
+			buildPhases = (
+				CBE8620E2807637C000471AC /* Sources */,
+				CBE8620F2807637C000471AC /* Frameworks */,
+				CBE862102807637C000471AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBE862152807637C000471AC /* PBXTargetDependency */,
+			);
+			name = "Aesthete WatchOSTests";
+			productName = "Aesthete WatchOSTests";
+			productReference = CBE862122807637C000471AC /* Aesthete WatchOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		CB30D6BE256ADAB400EE2C61 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1200;
+				LastSwiftUpdateCheck = 1330;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
 					CB112408256BF9AE00215E47 = {
@@ -312,6 +416,12 @@
 					CB30D6C8256ADB0C00EE2C61 = {
 						CreatedOnToolsVersion = 12.0;
 						LastSwiftMigration = 1310;
+					};
+					CBE8620A2807637C000471AC = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					CBE862112807637C000471AC = {
+						CreatedOnToolsVersion = 13.3.1;
 					};
 				};
 			};
@@ -330,12 +440,28 @@
 			targets = (
 				CB30D6C8256ADB0C00EE2C61 /* Aesthete IOS */,
 				CB112408256BF9AE00215E47 /* Aesthete IOS-Tests */,
+				CBE8620A2807637C000471AC /* Aesthete WatchOS */,
+				CBE862112807637C000471AC /* Aesthete WatchOSTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		CB112407256BF9AE00215E47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBE862092807637C000471AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBE862102807637C000471AC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -377,6 +503,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CBE862072807637C000471AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBE86224280763C5000471AC /* AestheteObserving.swift in Sources */,
+				CBE86231280763E1000471AC /* ConcurrentArrayProtocol.swift in Sources */,
+				CBE8622F280763DD000471AC /* DownloadMode.swift in Sources */,
+				CBE86230280763E1000471AC /* ConcurrentArray.swift in Sources */,
+				CBE8622D280763DB000471AC /* DownloadResource.swift in Sources */,
+				CBE86228280763D0000471AC /* DownloadsFileManagerProtocol.swift in Sources */,
+				CBE86222280763BD000471AC /* AestheteImplementation.swift in Sources */,
+				CBE86227280763D0000471AC /* DownloadsFileManager.swift in Sources */,
+				CBE86226280763C9000471AC /* Mode.swift in Sources */,
+				CBE86223280763C2000471AC /* Aesthete.swift in Sources */,
+				CBE8622B280763D6000471AC /* DownloadedFile.swift in Sources */,
+				CBE86229280763D2000471AC /* FileManager.swift in Sources */,
+				CBE86225280763C9000471AC /* AestheteConfiguration.swift in Sources */,
+				CBE8622A280763D6000471AC /* DownloadItem.swift in Sources */,
+				CBE86221280763BA000471AC /* LimitedOperationGroup.swift in Sources */,
+				CBE8622E280763DD000471AC /* DownloadError.swift in Sources */,
+				CBE8622C280763DB000471AC /* DownloadResourceProtocol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBE8620E2807637C000471AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -384,6 +541,11 @@
 			isa = PBXTargetDependency;
 			target = CB30D6C8256ADB0C00EE2C61 /* Aesthete IOS */;
 			targetProxy = CB11240F256BF9AE00215E47 /* PBXContainerItemProxy */;
+		};
+		CBE862152807637C000471AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBE8620A2807637C000471AC /* Aesthete WatchOS */;
+			targetProxy = CBE862142807637C000471AC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -758,6 +920,206 @@
 			};
 			name = Release;
 		};
+		CBE8621B2807637C000471AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = HFD95R9VP2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "Savinov.Aesthete-WatchOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		CBE8621C2807637C000471AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = HFD95R9VP2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "Savinov.Aesthete-WatchOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		CBE8621E2807637C000471AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = HFD95R9VP2;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "Savinov.Aesthete-WatchOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		CBE8621F2807637C000471AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = HFD95R9VP2;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "Savinov.Aesthete-WatchOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -784,6 +1146,24 @@
 			buildConfigurations = (
 				CB30D6DC256ADB0D00EE2C61 /* Debug */,
 				CB30D6DD256ADB0D00EE2C61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBE8621A2807637C000471AC /* Build configuration list for PBXNativeTarget "Aesthete WatchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBE8621B2807637C000471AC /* Debug */,
+				CBE8621C2807637C000471AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBE8621D2807637C000471AC /* Build configuration list for PBXNativeTarget "Aesthete WatchOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBE8621E2807637C000471AC /* Debug */,
+				CBE8621F2807637C000471AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

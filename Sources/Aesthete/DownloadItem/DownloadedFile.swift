@@ -5,6 +5,8 @@
 //  Created by Alexander Lezya on 09.11.2021.
 //
 
+import Foundation
+
 // MARK: - DownloadedFile
 
 public struct DownloadedFile {
@@ -41,3 +43,13 @@ public struct DownloadedFile {
             .appendingPathComponent(relativePath)
     }
 }
+
+// MARK: - Equatable
+
+extension DownloadedFile: Equatable {
+
+    public static func == (lhs: DownloadedFile, rhs: DownloadedFile) -> Bool {
+        lhs.relativePath == rhs.relativePath
+    }
+}
+
