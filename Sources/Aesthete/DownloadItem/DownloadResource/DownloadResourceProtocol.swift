@@ -5,6 +5,8 @@
 //  Created by Alexander Lezya on 09.11.2021.
 //
 
+import Foundation
+
 // MARK: - DownloadResourceProtocol
 
 public protocol DownloadResourceProtocol {
