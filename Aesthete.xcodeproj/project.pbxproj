@@ -49,7 +49,6 @@
 		DE8BCD80273BEC4D009AFA93 /* Aesthete.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8BCD7F273BEC4D009AFA93 /* Aesthete.swift */; };
 		DE8BCD85273C0D6A009AFA93 /* AestheteObserving.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8BCD84273C0D6A009AFA93 /* AestheteObserving.swift */; };
 		DED3877D2758EF4F0047F89B /* ObserverList.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = DED3877C2758EF4F0047F89B /* ObserverList.xcframework */; };
-		DED3877E2758EF4F0047F89B /* ObserverList.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DED3877C2758EF4F0047F89B /* ObserverList.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,17 +76,6 @@
 			dstSubfolderSpec = 10;
 			files = (
 				CBE86233280764D1000471AC /* ObserverList.xcframework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DED3877F2758EF4F0047F89B /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				DED3877E2758EF4F0047F89B /* ObserverList.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -352,7 +340,6 @@
 				CB30D6C4256ADB0C00EE2C61 /* Headers */,
 				CB30D6C5256ADB0C00EE2C61 /* Sources */,
 				CB30D6C6256ADB0C00EE2C61 /* Frameworks */,
-				DED3877F2758EF4F0047F89B /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
