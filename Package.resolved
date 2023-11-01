@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "observer-list",
+        "repositoryURL": "https://github.com/Incetro/observer-list.git",
+        "state": {
+          "branch": "main",
+          "revision": "d47ece29ba079a21f15c0b9404045133c2730bb9",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
